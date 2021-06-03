@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+    <head>
+        <meta charset="utf-8">
+        <title>購物系統</title>
+		<link href="images/icon.jpg" rel="shortcut icon" type="image/x-icon">
+        <link href="css/registerstyles.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <!--logo-->
+        <a href=""><img src="images/logo.jpg" width="286" hieght="91" title="購物系統" alt="😎購物系統😎" style="display:block; margin:auto;"></a>
+        <div class="container">
+            <div class="row col-md-6 col-md-offset-3">
+                <div class="panel panel-primary">
+                    <div class="panel-heading text-center">
+                        <h1>註冊</h1>
+                    </div>
+                    <div class="panel-body">
+                        <form action="registration.php" method="post">
+                            <div class="form-group">
+                                <label for="name">姓名</label>
+                                <input
+                                type="text"
+                                class="form-control"
+                                id="name"
+                                name="name"
+                                placeholder="姓名"
+                                />
+                            </div>
+                            <div class="form-group">
+                                <label for="gender">性別</label>
+                                <div>
+                                    <label for="male" class="radio-inline">
+                                        <input
+                                        type="radio"
+                                        name="gender"
+                                        value="m"
+                                        id="male"
+                                        />
+                                        男性
+                                    </label>
+                                    <label for="female" class="radio-inline">
+                                        <input
+                                        type="radio"
+                                        name="gender"
+                                        value="f"
+                                        id="female"
+                                        />
+                                        女性
+                                    </label>
+                                    <label for="others" class="radio-inline">
+                                        <input
+                                        type="radio"
+                                        name="gender"
+                                        value="o"
+                                        id="others"
+                                        />
+                                        其他
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">電子信箱</label>
+                                <input
+                                type="email"
+                                class="form-control"
+                                id="email"
+                                name="email"
+                                placeholder="電子信箱"
+                                />
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">手機號碼</label>
+                                <input
+                                type="tel"
+                                class="form-control"
+                                id="phone"
+                                name="phone"
+                                placeholder="手機號碼"
+                                />
+                            </div>
+                            <div class="form-group">
+                                <label for="address">地址</label>
+                                <input
+                                type="text"
+                                class="form-control"
+                                id="address"
+                                name="address"
+                                placeholder="地址"
+                                />
+                            </div>
+                            <div class="form-group">
+                                <label for="name">帳號</label>
+                                <input
+                                type="text"
+                                class="form-control"
+                                id="username"
+                                name="username"
+                                placeholder="帳號"
+                                />
+                            </div>
+                            <div class="form-group">
+                                <label for="name">密碼</label>
+                                <input
+                                type="password"
+                                class="form-control"
+                                id="password"
+                                name="password"
+                                placeholder="密碼"
+                                />
+                            </div>
+                            <input type="submit" class="bnt btn-primary" value="送出"/>
+                        </form>
+                    </div>
+                    <div class="panel-footer text-right">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

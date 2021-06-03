@@ -1,0 +1,13 @@
+.logo{
+    margin-left: auto;
+    margin-right: auto;
+}
+.login{
+    width : 10%;
+    margin-left: auto;
+    margin-right: 70px;
+}
+
+a{
+    text-decoration: none;
+}
